@@ -1,0 +1,66 @@
+# All colors must be in the form of '#rrggbb' or '#rgb'.
+# You cannot use color names.
+# #272822 - Dark Gray
+# #F92672 - Pink
+# #66D9EF - Blue
+# #AE81FF - Purple
+# #E6DB74 - Yellow
+# #A6E22E - Green
+# #F92672 - Pink/red
+# #CFCFC2 - Light Gray
+# #FD971F - Orange
+# #75715E - Medium Gray
+# #
+
+
+log-view:
+  nickname-format: '(%n) '
+  scroller-highlight-color: '#f0f'
+input-text:
+  font-family: 'Menlo Regular'
+  font-size: 11.0
+  background-color: '#272822'
+  color: '#CFCFC2'
+  selected:
+    background-color: '#75715E'
+member-list:
+  font-family: 'Menlo Regular'
+  font-size: 11.0
+  color: '#E6DB74'
+  background-color: '#272822'
+  operator:
+    color: '#FD971F'
+  selected:
+    color: '#A6E22E'
+    background:
+      # gradient
+      top-line-color: '#75715E'
+      bottom-line-color: '#75715E'
+      top-color: '#75715E'
+      bottom-color: '#75715E'
+server-tree:
+  font-family: 'Menlo Regular'
+  font-size: 11.0
+  background-color: '#272822'
+  highlight:
+    color: '#75715E'
+  newtalk:
+    color: '#F92672'
+  unread:
+    color: '#AE81FF'
+  normal:
+    active:
+      color: '#A6E22E'
+    inactive:
+      color: '#CFCFC2'
+  selected:
+    active:
+      color: '#A6E22E'
+    inactive:
+      color: '#75715E'
+    background:
+      # gradient
+      top-line-color: '#75715E'
+      bottom-line-color: '#75715E'
+      top-color: '#75715E'
+      bottom-color: '#75715E'
